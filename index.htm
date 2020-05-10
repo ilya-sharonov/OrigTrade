@@ -1,184 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Righteous&display=swap"
-      rel="stylesheet"
-    />
+    <head>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Righteous&display=swap"
+            rel="stylesheet"
+        />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      body {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        background-image: url(car.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                width: 100vw;
+                height: 100vh;
+                margin: 0;
+                background-image: url(car.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
 
-      .logn {
-        position: absolute;
-        font-family: "Oswald", sans-serif;
-        width: 13vw;
-        height: 1.7vw;
-        left: 50vw;
-        margin-top: 40vw;
-        border-radius: 40px;
-        margin-left: 50px;
+            .logn {
+                position: absolute;
+                font-family: 'Oswald', sans-serif;
+                width: 13vw;
+                height: 1.7vw;
+                left: 50vw;
+                margin-top: 40vw;
+                border-radius: 40px;
+                margin-left: 50px;
 
-        background: #438cab;
-        color: #ffffff;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 60px;
+                background: #438cab;
+                color: #ffffff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
 
-        /* identical to box height */
+                /* identical to box height */
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
 
-      .sing {
-        position: absolute;
-        font-family: "Oswald", sans-serif;
-        width: 13vw;
-        height: 1.7vw;
-        left: 35vw;
-        margin-top: 40vw;
-        border-radius: 40px;
-        margin-right: 40px;
+            .sing {
+                position: absolute;
+                font-family: 'Oswald', sans-serif;
+                width: 13vw;
+                height: 1.7vw;
+                left: 35vw;
+                margin-top: 40vw;
+                border-radius: 40px;
+                margin-right: 40px;
 
-        background: rgb(167, 5, 195);
-        color: #ffffff;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 60px;
+                background: rgb(167, 5, 195);
+                color: #ffffff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
 
-      .user {
-        background-color: #4f5761;
-        width: 15vw;
-        height: 200px;
-        position: absolute;
-        left: 85vw;
-        opacity: 0.8;
-        color: #ffffff;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 60px;
-        top: 0px;
+            .user {
+                background-color: #4f5761;
+                width: 15vw;
+                height: 200px;
+                position: absolute;
+                left: 85vw;
+                opacity: 0.8;
+                color: #ffffff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
+                top: 0px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
 
-      .image {
-        padding-left: 97.5vw;
-        position: absolute;
-        top: 70px;
-      }
-      .menu {
-        position: absolute;
-        width: 15vw;
-        height: 100vh;
-        left: 0px;
-        top: 0px;
+            .image {
+                padding-left: 97.5vw;
+                position: absolute;
+                top: 70px;
+            }
+            .menu {
+                position: absolute;
+                width: 15vw;
+                height: 100vh;
+                left: 0px;
+                top: 0px;
 
-        background: #4f5761;
-        box-sizing: border-box;
+                background: #4f5761;
+                box-sizing: border-box;
 
-        z-index: 0;
-      }
+                z-index: 0;
+            }
 
-      .greeg {
-        font-family: "Oswald", sans-serif;
-        background-color: #ff4500;
-        width: 15vw;
-        position: absolute;
-        height: 1.5vw;
-        left: 0px;
-        top: 23vw;
+            .greeg {
+                font-family: 'Oswald', sans-serif;
+                background-color: #ff4500;
+                width: 15vw;
+                position: absolute;
+                height: 1.5vw;
+                left: 0px;
+                top: 23vw;
 
-        color: #ffffff;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 34px;
-        line-height: 70px;
+                color: #ffffff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 34px;
+                line-height: 70px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        z-index: 1;
-      }
-      .sign {
-        position: absolute;
-        font-family: "Oswald", sans-serif;
-        width: 13vw;
-        height: 1.7vw;
-        left: 1vw;
-        margin-top: 12vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                z-index: 1;
+            }
+            .sign {
+                position: absolute;
+                font-family: 'Oswald', sans-serif;
+                width: 13vw;
+                height: 1.7vw;
+                left: 1vw;
+                margin-top: 12vw;
 
-        background: rgb(167, 5, 195);
-        color: #ffffff;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 60px;
+                background: rgb(167, 5, 195);
+                color: #ffffff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        z-index: 2;
-      }
-      .login {
-        position: absolute;
-        font-family: "Oswald", sans-serif;
-        width: 13vw;
-        height: 1.7vw;
-        left: 1vw;
-        margin-top: 11vw;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                z-index: 2;
+            }
+            .login {
+                position: absolute;
+                font-family: 'Oswald', sans-serif;
+                width: 13vw;
+                height: 1.7vw;
+                left: 1vw;
+                margin-top: 11vw;
 
-        background: #438cab;
-        color: #ffffff;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 50px;
-        line-height: 60px;
+                background: #438cab;
+                color: #ffffff;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 50px;
+                line-height: 60px;
 
-        /* identical to box height */
+                /* identical to box height */
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        z-index: 2;
-      }
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                z-index: 2;
+            }
 
-      /*это блок в меню) */
-    </style>
-  </head>
+            /*это блок в меню) */
 
-  <body>
-    <div class="login">Регистрация</div>
+            .container {
+                display: flex;
+                flex-flow: column wrap;
+                height: 100vh;
+            }
+            .upper-menu {
+                display: flex;
+                flex: 1 1 10%;
+                flex-flow: row-reverse;
+            }
+            .center-buttons {
+                display: flex;
+                flex: 1 1 90%;
+                flex-direction: column-reverse;
+            }
+            .buttons {
+                height: 30%;
+                display: flex;
+                justify-content: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="menu"></div>
+        <div class="container">
+            <div class="upper-menu">
+                upper
+            </div>
+            <div class="center-buttons">
+                <div class="buttons">
+                    <div>Button 1</div>
+                    <div>Button 2</div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="login">Регистрация</div>
     <div class="greeg" style="position: relative;">Поиск игр ></div>
-    <div class="menu"></div>
+    
     <div class="logn">Регистрация</div>
     <div class="sign">Войти</div>
     <div class="sing">Войти</div>
@@ -193,6 +226,6 @@
         style="border-radius: 30px;"
         alt="user icon"
       />
-    </div>
-  </body>
+    </div> -->
+    </body>
 </html>
